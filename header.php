@@ -2,7 +2,7 @@
 <html <?php language_attributes(); ?> class="no-js">
 
 <head>
-    <meta charset="<?php bloginfo( 'charset' ); ?>">
+    <meta charset="<?php bloginfo('charset'); ?>">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" sizes="57x57" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon/apple-icon-57x57.png?v=1">
@@ -22,14 +22,14 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="<?php echo get_stylesheet_directory_uri(); ?>/favicon/ms-icon-144x144.png?v=1">
     <meta name="theme-color" content="#ffffff">
-    <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+    <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
     <meta property="og:title" content="<?php page_title(); ?>" />
     <meta property="og:image" content="<?php echo get_og_image(); ?>" />
-    <meta property="og:url" content="<?php echo " http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI] "; ?>"/>
+    <meta property="og:url" content="<?php echo "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; ?>" />
     <meta property="og:site_name" content="<?php bloginfo('name'); ?> | www.wiver.be" />
     <meta property="og:description" content="<?php echo get_og_description(); ?>" />
     <!--[if lt IE 9]>
-	<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/html5.js"></script>
+	<script src="<?php echo esc_url(get_template_directory_uri()); ?>/js/html5.js"></script>
 	<![endif]-->
     <?php wp_head(); ?>
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/design/css/delegation.css">
