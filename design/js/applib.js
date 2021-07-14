@@ -83,6 +83,7 @@ window.Lube = function ($, ns) {
                     enabled: true
                 }
             });
+            $('.content-gallery a').simpleLightbox();
         },
         initCarousel: function () {
             $('.lube-carousel').slick({

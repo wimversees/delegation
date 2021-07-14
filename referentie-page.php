@@ -23,6 +23,7 @@ get_header(); ?>
 <section class="main-content my-3">
     <div class="container gallery gallery-media">
         <div class="row">
+            <?php the_content(); ?>
 
             <?php /*
 $albumSlug = "referentie-fotos";

@@ -71,6 +71,7 @@ add_theme_support('html5', array(
 
 // Register custom navigation walker
 require_once 'lib/wp_bootstrap_navwalker.php';
+require_once 'lib/functions-gallery.php';
 
 // this function generates an excerpt for a given length
 function get_the_excerpt_max_charlength($charlength = 160)
